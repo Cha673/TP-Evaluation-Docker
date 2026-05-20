@@ -100,7 +100,7 @@ Accès de Grafana : admin admin
 Je n'ai pas réussi à afficher le registry avec la version de l'image.
 
 Résultat du docker compose ps 
-![Rendu Partie 10](captures/Partie10-Githubactions.png)
+![Rendu Partie 10](captures/Partie10-docker-compose-ps.png)
 
 
 
