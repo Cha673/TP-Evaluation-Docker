@@ -1,0 +1,14 @@
+services:
+  cat:
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 128M
+
+  dog:
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 128M

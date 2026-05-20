@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  registry:
+    image: registry:2
+    container_name: docker-registry
+    ports:
+      - "8081:5000"
+    environment:
+      REGISTRY_STORAGE_DELETE_ENABLED: "true"
+    volume :
+      - registry_data:/var/lib/registry
+    restart: always
+
+  registry-ui:
+    image: joxit/docker-registry-ui:latest
+    container_name: docker-registry-ui
+    environment:
+      - REGISTRY_URL=http://localhost:8081
+      - SINGLE_REGISTRY=true
+    network_mode: "host" 
+    restart: always
+
+volumes:
+  registry_data:

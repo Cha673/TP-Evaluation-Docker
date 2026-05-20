@@ -1,0 +1,7 @@
+apiVersion: 1
+providers:
+  - name: 'TP13 Dashboards'
+    folder: 'TP13'
+    type: file
+    options:
+      path: /grafana/provisioning/dashboards
