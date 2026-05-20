@@ -83,10 +83,25 @@ Résultat du docker volume ls
 Résultat du docker volume inspect sur le volum tp-evaluatino-docker_registry_data
 ![Rendu Partie 8](captures/Partie8-docker-volumeinspect.png)
 
-
-http://180.149.198.29:40120/ -> URL Grafana 
-accès : admin admin
-
 ## Partie 9 — CI/CD avec GitHub Actions
+
+Résultat du CI/CD GitHub Actions 
+![Rendu Partie 9](captures/Partie9-Githubactions.png)
+
+## Partie 10 — Déploiement sur VPS
+
+URL de l'API : http://180.149.198.29:40110/ 
+http://180.149.198.29:40110/cat
+http://180.149.198.29:40110/dog
+
+URL de Grafana : http://180.149.198.29:40120/ 
+Accès de Grafana : admin admin
+
+Je n'ai pas réussi à afficher le registry avec la version de l'image.
+
+Résultat du docker compose ps 
+![Rendu Partie 10](captures/Partie10-Githubactions.png)
+
+
 
 
